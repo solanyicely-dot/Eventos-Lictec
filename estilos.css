@@ -357,4 +357,30 @@ details {
   background: #12355b;
   color: #fff;
 }
+@media screen and (max-width: 600px) {
+    .div_ppal {
+        width: 100%;
+        margin: 0 auto;
+        padding: 0;
+        border-radius: 0;
+    }
+}     @media screen and (max-width: 600px) {
+
+    .tabla_fotos {
+        width: 100%;
+        table-layout: auto;
+        border-spacing: 0;
+    }
+
+    .tabla_fotos tr {
+        display: block;
+        width: 100%;
+    }
+
+    .tabla_fotos td {
+        display: block;
+        width: 100%;
+        box-sizing: border-box;
+    }
+}
 
